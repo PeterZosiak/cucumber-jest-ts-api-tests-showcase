@@ -1,0 +1,26 @@
+{
+  "name": "cucmber-jest-ts-api-tests-showcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cucumber": "^7.0.0",
+    "@types/jest": "^29.5.3",
+    "axios": "^1.4.0",
+    "cucumber": "^6.0.7",
+    "eslint-plugin-jest": "^27.2.3",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.4.0",
+    "ts-node": "^10.9.1"
+  }
+}
