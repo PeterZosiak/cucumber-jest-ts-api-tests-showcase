@@ -17,8 +17,14 @@ interface Tag {
   name: string;
 }
 
-declare enum Status {
+export enum Status {
   available = 'available',
   pending = 'pending',
   sold = 'sold'
+}
+
+export interface PetResponse {
+  code: number;
+  type: string;
+  message: string;
 }
